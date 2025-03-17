@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./dist/readmeLogo.PNG" style="min-width: fit-content;">
+    <img src="./public/readmeLogo.PNG" style="min-width: fit-content;">
 </div>
 
 ## Table of Contents
