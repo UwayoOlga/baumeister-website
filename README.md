@@ -11,7 +11,11 @@
 
 
 ## Description
-Baumeister is a website for the Baumeister Group One Project.
+Baumeister is a website for the Baumeister Group One Project and below is the `folder structure`.
+
+- `./public`: Contains all the public assets for the website.(imgs, etc)
+- `./src`: Contains all the source code for the website.
+- `./dist`: Contains all the output files for the website.
 
 ## Installation
 This application Can be installed and ran using the following Procedures:
