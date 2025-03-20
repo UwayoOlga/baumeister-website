@@ -16,6 +16,8 @@ Baumeister is a website for the Baumeister Group One Project and below is the `f
 - `./public`: Contains all the public assets for the website.(imgs, etc)
 - `./src`: Contains all the source code for the website.
 - `./dist`: Contains all the output files for the website.
+- `./src/components`: Contains all the components for the website.
+- `./src/scripts`: Contains all the scripts for the website.
 
 ## Installation
 This application Can be installed and ran using the following Procedures:
