@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @theme {
     --font-fit: "Outfit", "sans-serif";
     --color-primary: #00672E; /* default color*/
