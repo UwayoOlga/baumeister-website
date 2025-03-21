@@ -31,6 +31,17 @@ const initHeader = () => {
       closeIcon.classList.add('hidden');
       hamburgerIcon.classList.remove('hidden');
   });
+  
+
+  window.addEventListener('resize', function() {
+    if (window.innerWidth >= 1024) { // Adjust the breakpoint as needed
+        mobileMenu.classList.add('hidden');
+        hamburgerIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+    }
+});
+
+
 };
 
 initHeader();
