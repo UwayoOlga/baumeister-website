@@ -1,31 +1,42 @@
-<div class="font-fit">
-    <div class="flex flex-row justify-between w-full p-4 mt-6 lg:flex-row lg:justify-between lg:p-4 lg:mt-0">
-      <div class="flex flex-col">
-        <h2>DEN</h2>
-        <h2>EN</h2>
-      </div>
-      <div>
-        <h1 class="text-3xl font-bold">Baumeister</h1>
-      </div>
-  
-      <div class="flex text-lg font-bold lg:hidden">
-        <img id="menuIcon" src="/public/HamburgerMenu.svg" alt="Menu" class="w-8 h-8 cursor-pointer">
-        <img id="menuIcon" src="/public/ExitLogo.svg" alt="Menu" class=" hidden w-8 h-8 cursor-pointer">
-      </div>
-      <div id="menu" class="hidden flex-col list-none items-end lg:flex lg:flex-col lg:list-none lg:items-end">
-        <h2>About</h2>
-        <h2>Services</h2>
-        <h2>References</h2>
-        <h2>Contact</h2>
-      </div>
-  
-      <div id="mobileMenu" class="hidden flex-col items-center w-full p-4">
-        <h2 class="py-2">About</h2>
-        <h2 class="py-2">Services</h2>
-        <h2 class="py-2">References</h2>
-        <h2 class="py-2">Contact</h2>
+<div class="font-fit relative">
+  <div class="flex flex-row justify-between w-full p-4 mt-6 lg:flex-row lg:justify-between lg:p-4 lg:mt-0">
+   
+    <div class="flex flex-col">
+      <h2 class="cursor-pointer">DE</h2>
+      <h2 class="cursor-pointer">EN</h2>
+    </div>
+    
+ 
+    <div>
+      <h1 class="text-3xl font-bold">Baumeister</h1>
+    </div>
+
+   
+    <div class="flex text-lg font-bold lg:hidden">
+      <div id="menuIcons">
+        <img id="hamburgerIcon" src="/public/HamburgerMenu.svg" alt="Menu" class="w-8 h-8 cursor-pointer">
+        <img id="closeIcon" src="/public/ExitLogo.svg" alt="Close Menu" class="hidden w-8 h-8 cursor-pointer">
       </div>
     </div>
+
+    <div id="menu" class="hidden flex-col list-none items-end lg:flex lg:flex-col lg:list-none lg:items-end">
+      <a href="./about.html">About</a>
+      <a href="./about.html">Services</a>
+      <a href="./about.html">References</a>
+      <a href="./about.html">Contact</a>
+    </div>
+
   </div>
+
+  <div id="mobileMenu" class="hidden  bg-[#F5F3EE] flex flex-col items-center justify-center text-center  space-y-10">
   
- 
+    <button id="closeButton" class="absolute top-5 right-5">
+      <!-- <img src="/public/ExitLogo.svg" alt="Close" class="w-8 h-8"> -->
+    </button>
+
+    <a href="./about.html" class="font-fit text-green-900 text-2xl py-4 font-bold ">About</a>
+    <a href="./services.html" class="font-fit text-green-900 text-2xl py-4 font-bold">Services</a>
+    <a href="./references.html" class="font-fit text-green-900 text-2xl py-4 font-bold">References</a>
+    <a href="./contact.html" class="font-fit text-green-900 text-2xl py-4 font-bold">Contact</a>
+  </div>
+</div>
