@@ -156,6 +156,60 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .top-\[156vh\] {
+    top: 156vh;
+  }
+  .top-\[211\.30vh\] {
+    top: 211.30vh;
+  }
+  .left-\[33\.85vw\] {
+    left: 33.85vw;
+  }
+  .left-\[43vw\] {
+    left: 43vw;
+  }
+  .flex {
+    display: flex;
+  }
+  .h-\[9vh\] {
+    height: 9vh;
+  }
+  .h-\[12\.41vh\] {
+    height: 12.41vh;
+  }
+  .h-full {
+    height: 100%;
+  }
+  .h-screen {
+    height: 100vh;
+  }
+  .w-\[10\.83vw\] {
+    width: 10.83vw;
+  }
+  .w-\[14vw\] {
+    width: 14vw;
+  }
+  .w-full {
+    width: 100%;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .bg-contain {
+    background-size: contain;
+  }
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
   .text-7xl {
     font-size: var(--text-7xl);
     line-height: var(--tw-leading, var(--text-7xl--line-height));
