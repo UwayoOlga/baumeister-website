@@ -16,5 +16,9 @@
         -ms-overflow-style: none;
         scrollbar-width: 0;
     }
+
+    .scrollable {
+        overflow: auto;
+    }
 }
   
