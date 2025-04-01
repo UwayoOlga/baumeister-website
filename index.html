@@ -25,7 +25,7 @@
 
     window.onload = () => {
         loadComponents('header', 'src/components/header.html');
-        loadComponents('hero', 'src/components/hero-d.html');
+        loadComponents('hero', 'src/components/hero.html', 'src/scripts/heroSection.js');
         loadComponents('about', 'src/components/about.html');
         loadComponents('services', 'src/components/services.html');
         loadComponents('references', 'src/components/references.html');
@@ -33,10 +33,10 @@
     };
 </script>
 
-<body>
+<body class="bg-background">
     <div id="header"></div>
-    <div id="hero" class="lg:w-full lg:flex justify-center"></div>
-    <div id="about" class="min-h-[1200px]"></div>
+    <div id="hero" class="lg:w-full lg:flex justify-center my-0 py-0"></div>
+    <div id="about"></div>
     <div id="services"></div>
     <div id="references"></div>
     <div id="contact"></div>
