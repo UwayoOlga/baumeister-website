@@ -4,16 +4,9 @@
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "tailwindcss": "^4.1.1"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.1"
-=======
-    "tailwindcss": "^4.0.15"
-  },
-  "dependencies": {
-    "@tailwindcss/cli": "^4.0.15"
->>>>>>> b11de35a079c208a474a9de771a8494253a97506
   }
 }
