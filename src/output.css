@@ -1,4 +1,4 @@
-/*! tailwindcss v4.0.17 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.1 | MIT License | https://tailwindcss.com */
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -6,7 +6,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-blue-800: oklch(0.424 0.199 265.638);
+    --color-blue-800: oklch(42.4% 0.199 265.638);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -160,20 +160,23 @@
   }
 }
 @layer utilities {
-  .absolute {
-    position: absolute;
+  .top-\[228rem\] {
+    top: 228rem;
   }
-  .top-\[250vh\] {
-    top: 250vh;
+  .top-\[244rem\] {
+    top: 244rem;
   }
   .left-\[0\.1vw\] {
     left: 0.1vw;
   }
-  .h-\[125vh\] {
-    height: 125vh;
+  .h-\[56rem\] {
+    height: 56rem;
   }
-  .w-\[100vw\] {
-    width: 100vw;
+  .h-\[84rem\] {
+    height: 84rem;
+  }
+  .w-\[19rem\] {
+    width: 19rem;
   }
   .bg-white {
     background-color: var(--color-white);
@@ -190,11 +193,14 @@
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
   }
-  .pt-40 {
-    padding-top: calc(var(--spacing) * 40);
-  }
   .pb-40 {
     padding-bottom: calc(var(--spacing) * 40);
+  }
+  .pl-0 {
+    padding-left: calc(var(--spacing) * 0);
+  }
+  .pl-\[62rem\] {
+    padding-left: 62rem;
   }
   .text-right {
     text-align: right;
@@ -205,10 +211,6 @@
   }
   .text-\[24px\] {
     font-size: 24px;
-  }
-  .tracking-wider {
-    --tw-tracking: var(--tracking-wider);
-    letter-spacing: var(--tracking-wider);
   }
   .text-black {
     color: var(--color-black);
@@ -226,8 +228,4 @@
       text-align: right;
     }
   }
-}
-@property --tw-tracking {
-  syntax: "*";
-  inherits: false;
 }
