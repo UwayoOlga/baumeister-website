@@ -7,4 +7,18 @@
     --color-background: #EFECEA; /*background color*/
     /* --breakpoint */
 }
- 
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: 0;
+    }
+
+    .scrollable {
+        overflow: auto;
+    }
+}
+  
